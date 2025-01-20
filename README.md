@@ -20,6 +20,14 @@ pip install pysqlite3
 pip install python-dotenv
 ```
 
+``` python
+pip install beautifulsoup4
+```
+
+``` python
+pip install requests
+```
+
 ## Utwórz plik .env z taką strukturą:
 
 ``` python
