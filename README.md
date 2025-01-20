@@ -35,7 +35,7 @@ TOKEN='tu wklej token bota'
 ```
 ## Wklej swój link z zaproszeniem:
 
-Linka z zaproszeniem należy utworzyć w **Discord Developer Portal**
+Link z zaproszeniem należy utworzyć w **Discord Developer Portal**
 1. Wejdź w aplikację bota
 2. Kliknij w zakładkę **OAuth2**
 3. W **SCOPES** zaznacz `bot` i `applications.commands`
@@ -64,7 +64,7 @@ python main.py
 
 ## O bocie: 
 
-Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, niemieckim, łacińskim, greckim i hebrajskim**
+**Biblia** to bot, który daje możliwość czytania Pisma Świętego w różnych językach, co pozwala na dokładne porównywanie tekstów oryginalnych z ich tłumaczeniami. Bot zawiera przekłady Pisma Świętego w języku **polskim, angielskim, niemieckim, łacińskim, greckim i hebrajskim**
 
 ## **Lista komend:**
 
@@ -92,7 +92,7 @@ Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, niemiec
 
 `/maps [map]` - wyświetla wybraną mapę z Biblii
 
-**Aby móc korzystać z funkcji wyszukiwania fragmentów Biblii, musisz najpierw ustawić domyślny przekład Pisma Świętego za pomocą komendy** `/setversion`
+**Aby móc korzystać z funkcji wyszukiwania fragmentów w Biblii, musisz najpierw ustawić domyślny przekład Pisma Świętego za pomocą komendy** `/setversion`
 
 ## Informacje
 
