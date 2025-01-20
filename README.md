@@ -66,7 +66,7 @@ Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, niemiec
 
 `/setversion [translation]` - ustawia domyślny przekład Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy wpisać jego skrót. Wszystkie skróty przekładów są dostępne w `/versions`
 
-`/search [text]` - służy do wyszukiwania fragmentów w danym przekładzie Biblii
+`/search [text]` - służy do wyszukiwania fragmentów w Biblii
 
 `/versions` - wyświetla dostępne przekłady Pisma Świętego
 
@@ -78,7 +78,7 @@ Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, niemiec
 
 `/random` - wyświetla losowy werset z Biblii
 
-`/dailyverse [hour]` - wyświetla werset dnia z Biblii. Opcjonalnie można ustawić godzinę wysłania wiadomości w formacie **HH:MM**
+`/dailyverse` - wyświetla werset dnia z Biblii
 
 `/removeuserdata` - usuwa dane użytkownika z bazy danych
 
