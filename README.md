@@ -1,4 +1,4 @@
-# Biblijny bot na Discorda - PL
+# Biblijny bot na Discorda
 
 ## Instalacja pakietów:
 
