@@ -1,5 +1,9 @@
 # Biblijny bot na Discorda
 
+## O bocie: 
+
+**Biblia** to bot, który daje możliwość czytania Pisma Świętego w różnych językach, co pozwala na dokładne porównywanie tekstów oryginalnych z ich tłumaczeniami. Bot zawiera przekłady Pisma Świętego w języku **polskim, angielskim, niemieckim, łacińskim, greckim i hebrajskim**
+
 ## Instalacja pakietów:
 
 * Wpisz w terminalu następujące komendy:
@@ -61,10 +65,6 @@ W folderze `data` zostanie utworzona baza danych w pliku `user_settings.db` gdy 
 ``` python
 python main.py
 ```
-
-## O bocie: 
-
-**Biblia** to bot, który daje możliwość czytania Pisma Świętego w różnych językach, co pozwala na dokładne porównywanie tekstów oryginalnych z ich tłumaczeniami. Bot zawiera przekłady Pisma Świętego w języku **polskim, angielskim, niemieckim, łacińskim, greckim i hebrajskim**
 
 ## **Lista komend:**
 
