@@ -1,4 +1,4 @@
-# Biblijny bot na Discorda
+# Biblia Bot
 
 ## O bocie: 
 
@@ -44,11 +44,12 @@ Link z zaproszeniem należy utworzyć w **Discord Developer Portal**
 2. Kliknij w zakładkę **OAuth2**
 3. W **SCOPES** zaznacz `bot` i `applications.commands`
 4. W **BOT PERMISSIONS** zaznacz następujące uprawnienia:
-* Read Messages/View Channels
+* View Channels
 * Send Messages
 * Send Messages in Threads
 * Use Slash Commands
 * Manage Messages
+* Embed Links
 
 ``` python
 self.add_item(discord.ui.Button(label="Dodaj bota", url="twój_link_z_zaproszeniem"))
