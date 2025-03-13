@@ -141,21 +141,6 @@ async def on_message(message):
     # Przetwarzanie wiadomości z domyślnym przekładem Biblii użytkownika
     translation = user_data[1] if user_data else None
 
-    # Komenda !stats
-
-    if message.content.startswith('!stats'):
-        channel_count = sum(len(guild.text_channels) for guild in client.guilds)
-
-        c.execute("SELECT COUNT(*) FROM user_settings")
-        users_count = c.fetchone()[0]
-
-        embed = discord.Embed(
-            title="Statystyki",
-            description=f"Liczba serwerów: **{len(client.guilds)}**\nLiczba użytkowników: **{users_count}**\nLiczba kanałów: **{channel_count}**",
-            color=12370112
-        )
-        await message.channel.send(embed=embed)
-
     # Sprawdza czy wiadomość zawiera odwołanie do fragmentu Biblii
     
     BibleVerses = Find_Bible_References(message.content)
