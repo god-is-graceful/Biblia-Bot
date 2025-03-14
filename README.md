@@ -35,7 +35,7 @@ pip install requests
 ## Utwórz plik .env z taką strukturą:
 
 ``` python
-TOKEN='tu wklej token bota'
+TOKEN='token bota'
 ```
 ## Wklej swój link z zaproszeniem:
 
@@ -52,7 +52,7 @@ Link z zaproszeniem należy utworzyć w **Discord Developer Portal**
 * Embed Links
 
 ``` python
-self.add_item(discord.ui.Button(label="Dodaj bota", url="twój_link_z_zaproszeniem"))
+self.add_item(discord.ui.Button(label="Dodaj bota", url="link_z_zaproszeniem"))
 ```
 
 ## Baza danych
