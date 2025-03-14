@@ -1,4 +1,4 @@
-# Biblia Bot
+# Biblia Bot - bot w trakcie rozbudowy
 
 ## O bocie: 
 
