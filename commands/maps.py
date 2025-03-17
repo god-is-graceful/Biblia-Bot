@@ -1,12 +1,7 @@
 import discord
-from discord.ext import commands
 from discord import app_commands
 
-intents = discord.Intents.default()
-intents.message_content = True
-client = commands.Bot(command_prefix='!', intents=intents)
-
-@client.tree.command(name="maps", description="Mapy z Biblii")
+@app_commands.command(name="maps", description="Mapy z Biblii")
 @app_commands.describe(map="Wybierz mapę")
 @app_commands.choices(map=[
     app_commands.Choice(name="Kraje podróży Abrahama", value="Kraje podróży Abrahama"),
@@ -16,25 +11,22 @@ client = commands.Bot(command_prefix='!', intents=intents)
 ])
 
 async def maps(interaction: discord.Interaction, map: app_commands.Choice[str]):
-
     file_path = f'resources/maps/{map.value}.jpg'
 
     try:
         image = discord.File(file_path, filename='map.jpg')
 
-        embed = discord.Embed(
+        maps_embed = discord.Embed(
             title=map.name,
             color=12370112
         )
-
-        embed.set_image(url="attachment://map.jpg")
-
-        await interaction.response.send_message(embed=embed, file=image)
+        maps_embed.set_image(url="attachment://map.jpg")
+        await interaction.response.send_message(embed=maps_embed, file=image)
     
     except FileNotFoundError:
         error_embed = discord.Embed(
             title="Błąd",
-            description="Mapa nie została znaleziona",
+            description="Nie znaleziono mapy",
             color=0xff1d15
         )
         await interaction.response.send_message(embed=error_embed, ephemeral=True)
